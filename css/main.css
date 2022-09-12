@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    
+}
+body{
+    position: relative;
+    font-family: "1";
+}
+@font-face {
+    font-family: "1";
+    src: url(static/Montserrat-BoldItalic.ttf);
+}
+:root{
+    --mycolor:#F4511E !important;
+}
+.mycolor{
+ background-color: #F4511E !important;
+}
+.lightgray{ 
+    background-color: #F6F6F6;
+}
+.gray{
+    color: gray;
+}
+/*nav bar*/ 
+.navbar{
+    
+    background-color: var(--mycolor) !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    position: sticky;
+    top: 0%;
+    z-index: 444;
+    width: 100%;
+}
+.nav-link{
+    font-size: 15px;
+    line-height: 1.5;
+}
+.nav-link:hover ,:active{
+    background-color: white;
+    color: #F4511E !important;
+}
+
+/*end nav*/
+
+
+/*start header*/
+.Company{
+    font-size: 70px !important;
+}
+
+.input-form{
+    width: 400px;
+    height: 33px;
+    padding: 10px;
+    margin-left: 35%;
+    border: none;
+}
+.b1{
+    padding: 5px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+}
+.b1:hover{
+    background-color: #C9302C;
+}
+/*end header*/
+
+/*start about*/
+.second-p-about{
+    color: gray;
+}
+.asomeabout{
+    text-align: center;
+    font-size: 220px;
+    margin-top: 100px;
+    margin:70px;
+    color: var(--mycolor);
+
+}
+.b2{
+    background-color: #F4511E;
+    color: white;
+    border: 1px solid #F4511E ;
+    border-radius: 5px ;
+    margin-bottom: 30px;
+}
+.b2:hover{
+    background-color: white;
+    color: #F4511E;
+    
+}
+/*end about*/
+
+/*start services*/
+.asomeservies{
+    color: var(--mycolor);
+    margin-left: 40%;
+    padding: 20px;
+    font-size: 50px;
+}
+/*end services*/
+
+/*start PORTFOLIO*/
+
+
+
+/*end PORTFOLIO*/
+/*start slider*/
+.arrow{
+    color: #F4511E !important;
+}
+.carousel-control-next,.carousel-control-prev{
+    opacity: 1;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-image: none;
+    filter: none !important;
+    color: #F4511E !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+    background-color: #F4511E !important;
+}
+/*end slider*/
+
+/*start pricing*/
+.pro{
+    border: 1px solid #F4511E !important ;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+.b3{
+    width: 90px;
+    height: 40px;
+    background-color: #F4511E;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.b3:hover{
+    background-color: white ;
+    color: #F4511E;
+    border: 1px solid #F4511E;
+
+}
+
+/*end pricing*/
+
+/*start contact*/
+.b4{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 91%;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.b4:hover{
+    background-color: rgb(196, 181, 181);
+}
+.flytop{
+    font-size: 20px;
+    color: #F4511E;
+}
+/*end contact*/
